@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Poll Everywhere Notifier",
+    "description": "Checks for a poll on Poll Everywhere.",
+    "version": "1.0",
+    "permissions": ["activeTab", "storage", "offscreen"],
+    "host_permissions":["https://pollev.com/*"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.pollev.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "48": "icon.png"
+        }
+    },
+
+    "icons": {
+        "48": "icon.png"
+    }
+  }
+  
