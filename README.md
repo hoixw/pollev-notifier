@@ -5,6 +5,8 @@ Chrome extension that notifies user with a very loud warning when a pollev poll 
 To install simply follow this guide:
 
 ```
+  0. Download files, extract, and place into folder
+
   1. Visit chrome://extensions in your browser.
   2. Ensure that the Developer mode checkbox in the top right-hand corner is checked.
   3. Click Load unpacked extension… to pop up a file-selection dialog.
