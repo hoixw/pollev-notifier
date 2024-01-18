@@ -1,4 +1,4 @@
-# pollev-notifier
+# Poll Everywhere (pollev) Notifier
  
 Chrome extension that notifies user with a very loud warning when a pollev poll is posted. Using MV3.
 
